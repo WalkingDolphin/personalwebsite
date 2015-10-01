@@ -1,0 +1,172 @@
+<!--
+Code written by Tobin Patterson
+Date: 9/29/2015
+-->
+
+<html>
+
+<head>
+
+<title>Toby's Webpage</title>
+
+<style>
+
+	body, html
+	{
+		width: 100%;
+		height: 100%;
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+		background: rgb(158, 158, 157);
+		font-family: sans-serif;
+	}
+	
+	a 
+	{
+		text-decoration: none;
+		color: white;
+	}
+	
+	a:hover
+	{
+		text-decoration: underline;
+	}
+	
+	#title-bar 
+	{
+		background: black;
+	}
+
+	#intro 
+	{
+
+		background-color: grey;
+		color: rgb(203, 203, 197);
+		padding-bottom: 50px;
+		padding-top: 5px;
+		position: relative;
+		bottom: 30px;
+	}
+	
+	#a-guy
+	{
+		bottom: 20px;
+	}
+	
+	#my-picture 
+	{
+		width: 30%;
+	}
+	
+	#contact 
+	{
+		right: 30px;
+		top: 25px;
+	}
+	
+	#me 
+	{
+		text-align: center;
+		font-size: 30px;
+		bottom: 35px;
+	}
+	
+	#stuff-header
+	{
+		background: rgb(25, 25, 25);
+		color: rgb(211, 211, 211);
+		position: relative;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		bottom: 80px;
+	}
+	
+	#stuff-i-do 
+	{
+		background: rgb(89, 89, 89);
+		color: rgb(172, 172, 172);
+		position: relative;
+		padding-top: 20px;
+		padding-bottom: 100px;
+		bottom: 130px;
+		
+	}
+	
+	#about-me
+	{
+		top: 20px;
+	}
+	
+	#contact-header
+	{
+		background: rgb(25, 25, 25);
+		color: rgb(211, 211, 211);
+		position: relative;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		bottom: 180px;
+	}
+	
+	.title-bar-text
+	{
+		color: white;
+		font-size: 25px;
+		text-align: right;
+		position: relative;
+
+	}
+	
+	.header 
+	{
+		font-size: 50px;
+	}
+	
+	.desc-text 
+	{
+		font-size: 19px;
+		position: relative;
+		
+	}
+
+</style>
+
+</head>
+
+<body>
+
+<div id = "title-bar">
+
+	<p class = "title-bar-text" id = "contact"><a href="#contact-header">Contact me</a></p>
+	<p class = "title-bar-text" id = "me"><a href = "#stuff-header">Me</a></p>
+
+</div>
+</div>
+
+<div  id = "intro">
+
+	<p class = "header">Welcome to my webpage, boi.</p>
+	<p class = "desc-text" id = "a-guy">I am a guy who programs and stuff, <br> so I made this cause it's pretty cool. Get on <br >my level of l33t hacking.</p>
+	<img src = "My picture.jpg" id = "my-picture" alt = "A picture of myself">
+
+</div>
+
+<p class = "header" id = "stuff-header">Stuff I do and things aboot me</p>
+
+<div id = "stuff-i-do" class = "main-text-body">
+
+	<p class = "desc-text" id = "about-me">I do some real good stuff.<br> I program in C/C++, Java, HTML/CSS <br> and Python. I also enjoy building<br> curcuits with my Arudino</p>
+
+</div>
+
+<p class = "header" id = "contact-header">Contact Me</p>
+
+<div>
+
+	
+
+</div>
+
+</body>
+
+</html>
